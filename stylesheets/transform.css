@@ -1,69 +1,31 @@
-/* line 4, ../sass/transform.scss */
 .container {
   width: 800px;
   height: 500px;
   background-image: url("http://pic1a.nipic.com/2008-12-04/2008124215522671_2.jpg");
-  background-size: 100% 100%;
-}
+  background-size: 100% 100%; }
 
-/* line 11, ../sass/transform.scss */
 .content {
   width: 50px;
   height: 50px;
   background-image: url("http://image.photophoto.cn/nm-6/018/030/0180300244.jpg");
   background-size: 100% 100%;
-  -webkit-animation: myaim 10s infinite;
-          animation: myaim 10s infinite;
-}
-
-@-webkit-keyframes myaim {
-  0% {
-    top: 0px;
-    left: 0px;
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-    -webkit-transform: translate(60px, 50px) rotate(360deg);
-            transform: translate(60px, 50px) rotate(360deg);
-  }
-  60% {
-    -webkit-transform: translate(700px, 50px) scale(1.5);
-            transform: translate(700px, 50px) scale(1.5);
-  }
-  75% {
-    -webkit-transform: translate(700px, 50px) skew(30deg, 0deg);
-            transform: translate(700px, 50px) skew(30deg, 0deg);
-  }
-  100% {
-    top: 0px;
-    left: 0px;
-    opacity: 1;
-  }
-}
+  animation: myaim 10s infinite; }
 
 @keyframes myaim {
   0% {
     top: 0px;
     left: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
   50% {
     opacity: .5;
-    -webkit-transform: translate(60px, 50px) rotate(360deg);
-            transform: translate(60px, 50px) rotate(360deg);
-  }
+    transform: translate(60px, 50px) rotate(360deg); }
   60% {
-    -webkit-transform: translate(700px, 50px) scale(1.5);
-            transform: translate(700px, 50px) scale(1.5);
-  }
+    transform: translate(700px, 50px) scale(1.5); }
   75% {
-    -webkit-transform: translate(700px, 50px) skew(30deg, 0deg);
-            transform: translate(700px, 50px) skew(30deg, 0deg);
-  }
+    transform: translate(700px, 50px) skew(30deg, 0deg); }
   100% {
     top: 0px;
     left: 0px;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
+
+/*# sourceMappingURL=transform.css.map */
